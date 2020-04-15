@@ -1,0 +1,24 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <ResourceDictionary.ThemeDictionaries>
+    <ResourceDictionary x:Key="Default">
+      <SolidColorBrush x:Key="ApplicationPageBackgroundThemeBrush" Color="#1f1f1f" />
+      <SolidColorBrush x:Key="ElevatedPageBackgroundThemeBrush" Color="#222222" />
+    </ResourceDictionary>
+    <ResourceDictionary x:Key="Light">
+      <SolidColorBrush x:Key="ApplicationPageBackgroundThemeBrush" Color="#f4f4f4" />
+      <SolidColorBrush x:Key="ElevatedPageBackgroundThemeBrush" Color="#f9f9f9" />
+    </ResourceDictionary>
+  </ResourceDictionary.ThemeDictionaries>
+
+  <Color x:Key="WaniKaniPink">#dd0093</Color>
+  <Color x:Key="WaniKaniDarkPink">#9E0069</Color>
+  <Color x:Key="SystemAccentColor">#dd0093</Color>
+
+  <SolidColorBrush x:Key="SystemColorControlAccentBrush" Color="{ThemeResource WaniKaniPink}" />
+  <SolidColorBrush x:Key="SystemControlHighlightAccentBrush" Color="{ThemeResource WaniKaniPink}" />
+  <SolidColorBrush x:Key="WaniKaniPinkBrush" Color="{ThemeResource WaniKaniPink}" />
+  <SolidColorBrush x:Key="WaniKaniDarkPinkBrush" Color="{ThemeResource WaniKaniDarkPink}" />
+</ResourceDictionary>
